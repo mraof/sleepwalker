@@ -1,0 +1,3 @@
+max_width = 300
+fn_args_layout = "Block"
+fn_arg_indent = "Tabbed"

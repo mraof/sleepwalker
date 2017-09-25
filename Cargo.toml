@@ -1,0 +1,20 @@
+[package]
+name = "sleepwalker"
+version = "0.1.0"
+authors = ["mraof <mraof@mraof.com>"]
+
+[dependencies]
+rusttype = "*"
+conrod = "*"
+rlua = "*"
+image = "*"
+rodio = "*"
+
+[dependencies.gfx] 
+git = "https://github.com/bjadamson/gfx"
+branch = "examples-run-older-pc"
+
+[dependencies.gfx_support]
+git = "https://github.com/bjadamson/gfx"
+branch = "examples-run-older-pc"
+features = ["gl"]
